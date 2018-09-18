@@ -11,6 +11,7 @@ class baseTest extends \PHPUnit_Framework_TestCase
 
     public function testToString()
     {
-
+        $error = new \Aw\Error();
+        $error->setLevel(\Aw\Error::VERBOSE);
     }
 }
